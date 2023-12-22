@@ -152,7 +152,7 @@ const IdeasPage = () => {
             key={page}
             onClick={() => handlePageChange(page)}
             className={`${pageNumber === page
-              ? 'bg-primary px-3 py-2 rounded-lg text-white'
+              ? 'bg-main px-3 py-2 rounded-lg text-white'
               : 'text-black'
               } ${pageNumber === page
                 ? 'text-lg font-bold transform hover:scale-110 transition-transform'

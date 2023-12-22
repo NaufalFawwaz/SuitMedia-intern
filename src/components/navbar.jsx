@@ -41,7 +41,7 @@ const navbar = () => {
   };
 
   return (
-    <nav style={navigationBarStyles} className="w-full bg-primary flex items-center justify-between px-32 py-7 text-white text-xl">
+    <nav style={navigationBarStyles} className="w-full bg-main flex items-center justify-between px-32 py-7 text-white text-xl">
       <NavLink to={'/'}>
         <img src={Logo} alt="logo" className="h-20 w-auto"/>
       </NavLink>
